@@ -1,0 +1,73 @@
+.page-header {
+    color: darkred;
+}
+
+.page-header h1 {
+    font-size: 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.page-header h4 {
+    color: darkred;
+    margin: 0px 0px 0px 55px;
+}
+
+.page-header img {
+    width: 75px;
+}
+
+#container {
+    width: 500px;
+    margin: 100px 100px 0px 300px;
+    color: darkred;
+    text-align: center;
+}
+
+#container h1 {
+    color: darkred;
+    font-size: 50px;
+}
+
+#container button {
+    width: 100px;
+    color: darkred;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#container a {
+    color: darkred;
+    text-decoration: none;
+}
+
+#input {
+    margin: 0 0 50px 0;
+    width: 500px;
+    text-align: center;
+}
+
+#input h3 {
+    color: darkred;
+}
+
+.text-box {
+    border: 5px solid darkred;
+    min-height: 135px;
+    width:  300px;
+    margin: 10px 0px 10px 100px;
+    border-radius: 5px;
+}
+
+.user-name {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid darkred;
+}
+
+.time-stamp {
+    text-align: center;
+    font-size: 10px;
+    border-bottom: 2px solid darkred;
+    margin-bottom: 0px 0px 10px 0px;
+}

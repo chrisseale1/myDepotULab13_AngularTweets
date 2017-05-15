@@ -1,0 +1,10 @@
+
+<div id="container">
+    <h1>You've reached Sharkbite!</h1>
+    <h5>Enter Your UserName Below</h5>
+    <input type="text" ng-model="$root.user">
+    <br>
+    <h1 ng-hide="user.length == 0">Sharkname: {{user}}</h1>
+    <h4 ng-hide="user.length == 0">Hit submit and start biting!</h4>
+    <button ng-hide="user.length == 0"><a href="#bites">SUBMIT</a></button>
+</div>

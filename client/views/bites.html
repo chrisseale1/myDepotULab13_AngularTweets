@@ -1,0 +1,15 @@
+<div id="input">
+    <h3>Write a bite, {{ user }}!</h3>
+    <input id="text-box" type="text">
+    <input type="submit" ng-click="postData()" value="Bite">
+</div>
+
+<div id="bites" ng-repeat="bite in bites | orderBy:'id':true"> 
+    <!--the orderBy can go inside html. Who knew-->
+    <div class="text-box col-lg-5">
+        <div class="user-name">{{ bite.user }}</div>
+        <div class="time-stamp">{{ bite.createdAt | date: 'short'}}</div>
+        <!--date filter gives various options of date and time presentation-->
+        <p>{{ bite.text }}</p>
+    </div>
+</div>
